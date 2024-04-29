@@ -899,11 +899,6 @@ const Home = () => {
                 <ArrowRight />
               </Link>
 
-              <div className="relative mt-8 h-[139px] sm:h-[208.5px] lg:mt-14 lg:h-[278px]">
-                <WhaleBannerAnimation />
-              </div>
-            </section>
-
             <footer className="mt-[60px] border-t border-white/20 px-5 lg:mt-20">
               {/* <div className="mx-auto grid max-w-[1400px] gap-y-7 px-5 pt-3 sm:grid-cols-2 lg:grid-cols-4 lg:pt-20">
                 <div>
