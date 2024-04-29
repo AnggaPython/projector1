@@ -146,24 +146,8 @@ const Home = () => {
                   <ArrowRight />
                 </Link>
               </div>
-
-              {/* 3 logos */}
-              <div className="mt-7 flex items-center justify-center space-x-7 md:space-x-12">
-                <div>
-                  <Image src={tg} alt="telegram" width={100} height={100} />
-                </div>
-                <div>
-                  <Image src={webapp} alt="webapp" width={100} height={100} />
-                </div>
-                <div>
-                  <Image
-                    src={playstore}
-                    alt="play store"
-                    width={100}
-                    height={100}
-                  />
-                </div>
               </div>
+
 
               {/* countdown */}
               <CountDown targetDate={targetDate} />

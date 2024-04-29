@@ -1,4 +1,4 @@
-kode apa ini: import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 interface CountdownProps {
   targetDate: Date;
