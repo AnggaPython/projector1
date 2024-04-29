@@ -21,11 +21,15 @@ const Countdown: React.FC<CountdownProps> = ({
     let timeLeft = {};
 
     if (difference > 0) {
+      // Max countdown set to 60 days
+      const maxCountdown = 60 * 24 * 60 * 60 * 1000;
+      const adjustedDifference = difference > maxCountdown ? maxCountdown : difference;
+
       timeLeft = {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
+        days: Math.floor(adjustedDifference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((adjustedDifference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((adjustedDifference / 1000 / 60) % 60),
+        seconds: Math.floor((adjustedDifference / 1000) % 60),
       };
     }
 
