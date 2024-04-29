@@ -142,7 +142,7 @@ const Home = () => {
                   href="https://forms.gle/fuYGBJQF5W4amLdt6"
                   className="inline-flex h-[48px] items-center gap-x-[13px] rounded-full px-5 text-sm font-medium leading-[22px] text-white lg:gap-x-[12.75px] lg:px-6 lg:text-[15px]"
                 >
-                  <span>Subscribe with Email</span>
+                  <span>Airdops</span>
                   <ArrowRight />
                 </Link>
               </div>
