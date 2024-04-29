@@ -185,9 +185,9 @@ const Home = () => {
                 </h2>
               </div>
               <div className="mt-7 grid grid-cols-3 justify-items-center gap-x-[26px] gap-y-8 md:mt-[68px] md:gap-y-[41px] lg:grid-cols-4">
-                <Supporter src={optimism} alt="Optimism" />
-                <Supporter src={binance} alt="Binance" />
-                <Supporter src={arbitrum} alt="Arbitrum" />
+                <Supporter src={optimism} alt="Optimism" comingSoon />
+                <Supporter src={binance} alt="Binance" comingSoon />
+                <Supporter src={arbitrum} alt="Arbitrum" comingSoon />
                 <Supporter src={solana} alt="Solana" comingSoon />
                 <Supporter src={zkSync} alt="zkSync" comingSoon />
                 <Supporter src={fantom} alt="Fantom" comingSoon />
